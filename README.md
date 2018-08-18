@@ -11,7 +11,7 @@ The projects are in the following directories
 
 The projects were developed on Debian Stretch, there's the script "dependencies.sh" which compiles from the sources OpenCV 3.4.1 and Tensorflow 1.10. There're some build dependencies, since they were installed on my system, I don't know for sure what they are and I don't call any "apt-get install" commands in the script. Necessary things I guess can be figured out after googling CMake errors during generating projects.
 
-TensorFlow from the sources is needed mostly for C++ API which I was used for evaluating SegNet. For the other projects, I guess, TensorFlow from PyPI would be sufficient. OpenCV from the sources is needed because of the contrib modules which contain Facemark API. The other projects don't use the contrib and also probably would run with the distributed OpenCV 3.4.1 binaries, headers and the Python 3 bindings.
+The TensorFlow from the sources is needed mostly for the C++ API which I was used for evaluating the SegNet, and it's convenient for a desirable CUDA version and for native CPU architecture. For the other projects, I guess, the TensorFlow from PyPI would be sufficient. The OpenCV from the sources is needed because of the contrib modules which contain Facemark API. The other projects don't use the contrib and also probably would run with the distributed OpenCV 3.4.1 binaries, headers and the Python 3 bindings.
 
 
 Demo, by the way
