@@ -13,3 +13,7 @@ The projects were developed on Debian Stretch, there's the script "dependencies.
 
 TensorFlow from the sources is needed mostly for C++ API which I was used for evaluating SegNet. For the other projects, I guess, TensorFlow from PyPI would be sufficient. OpenCV from the sources is needed because of the contrib modules which contain Facemark API. The other projects don't use the contrib and also probably would run with the distributed OpenCV 3.4.1 binaries, headers and the Python 3 bindings.
 
+
+Demo, by the way
+https://vimeo.com/285608751
+
